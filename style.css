@@ -38,6 +38,10 @@ p {
   text-align: center;
 }
 
+h4 {
+  text-align: center;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -121,4 +125,44 @@ p {
   display: block;
   margin: 30px auto;
   width: 200px;
+}
+
+.main-heading {
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+@media (max-width: 844px) {
+  h1 {
+    text-align: center;
+    font-size: 4%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  body {
+    text-align: center;
+    font-size: 12px;
+    margin-top: -60px;
+  }
+  row .img-grid {
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+  }
+
+  .paragraphs {
+    display: block;
+  }
+  .logo {
+    width: 120px;
+  }
+
+  hr {
+    display: none;
+  }
 }
